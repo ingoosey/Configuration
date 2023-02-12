@@ -1,5 +1,5 @@
 #!name=Unblock TikTok
-#!desc=Switch freely to browse TikTok content in each region.
+#!desc=Freely Switch and Browse Tiktok Content in Various Regions.
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307
