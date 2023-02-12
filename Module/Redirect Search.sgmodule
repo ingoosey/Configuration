@@ -1,5 +1,5 @@
-#!name=Google Search
-#!desc=Url Redirect Google Search Engine.
+#!name=Redirect Search
+#!desc=Redirect Safari's Google Search.
 
 [URL Rewrite]
 ^https?://(www.)?g.cn https://www.google.com 302
