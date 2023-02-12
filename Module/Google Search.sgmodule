@@ -1,5 +1,5 @@
-#!name=URL Redirect
-#!desc=Redirect to Google search engine.
+#!name=Google Search
+#!desc=Url Redirect Google Search Engine.
 
 [URL Rewrite]
 ^https?://(www.)?g.cn https://www.google.com 302
