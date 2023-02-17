@@ -1,5 +1,5 @@
 #!name=Google URL redirection
-#!desc=URL redirection Google search.
+#!desc=重定向国内谷歌搜索引擎。
 
 [URL Rewrite]
 ^https?://(www.)?g.cn https://www.google.com 302
