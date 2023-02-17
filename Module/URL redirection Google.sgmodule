@@ -1,5 +1,5 @@
-#!name=Redirect Search
-#!desc=Redirect Safari's Google Search.
+#!name=Google URL redirection
+#!desc=URL redirects Google search engine for domestic use.
 
 [URL Rewrite]
 ^https?://(www.)?g.cn https://www.google.com 302
