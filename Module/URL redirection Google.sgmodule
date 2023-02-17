@@ -1,5 +1,5 @@
 #!name=Google URL redirection
-#!desc=URL redirects Google search engine for domestic use.
+#!desc=URL redirection Google search.
 
 [URL Rewrite]
 ^https?://(www.)?g.cn https://www.google.com 302
