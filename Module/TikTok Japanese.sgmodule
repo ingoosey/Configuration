@@ -1,5 +1,5 @@
 #!name=TikTok Japanese
-#!desc=Unblock TikTok in Japan.
+#!desc=解锁 TikTok 的日本地区内容。
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307
