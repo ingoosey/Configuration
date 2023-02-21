@@ -1,11 +1,17 @@
 #!name=Block YouTube Ads
 #!desc=拦截 YoutTube 网站的广告内容。
 
-[Script]
-youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?,requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/ingoosey/Configuration/main/JavaScript/YouTube.ads.js
+[Rule]
+AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
 
 [URL Rewrite]
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - REJECT-IMG
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 header
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject
+
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject
 
 [MITM]
-hostname = %APPEND% youtubei.googleapis.com, *.googlevideo.com
+hostname = %APPEND% -redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com
