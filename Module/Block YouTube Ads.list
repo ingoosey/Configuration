@@ -1,0 +1,11 @@
+#!name=Block YouTube Ads
+#!desc=拦截 YoutTube 网站的广告内容。
+
+[Script]
+youtube = type=http-response,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\?,requires-body=1,binary-body-mode=1,max-size=3145728,script-path=https://raw.githubusercontent.com/ingoosey/Configuration/main/JavaScript/YouTube.ads.js
+
+[URL Rewrite]
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - REJECT-IMG
+
+[MITM]
+hostname = %APPEND% youtubei.googleapis.com, *.googlevideo.com
