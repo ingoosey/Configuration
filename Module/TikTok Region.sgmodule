@@ -1,8 +1,8 @@
-#!name=TikTok Japanese
-#!desc=解锁 TikTok 的日本地区内容。
+#!name=Unlock TikTok
+#!desc=解锁 TikTok 特定的地区内容。
 
 [URL Rewrite]
-(?<=_region=)CN(?=&) JP 307
+(?<=_region=)CN(?=&) KR 307
 (?<=&mcc_mnc=)4 2 307
 ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
