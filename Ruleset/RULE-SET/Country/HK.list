@@ -1,3 +1,10 @@
+# macOS的词典和维基百科搜索集成的分流规则
+PROCESS-NAME,LookupViewService
+PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
+DOMAIN,lookup-api.apple.com
+DOMAIN,lookup-api.apple.com.edgekey.net
+DOMAIN,e16991.b.akamaiedge.net
+
 # Steam
 DOMAIN,f3b7q2p3.ssl.hwcdn.net
 DOMAIN,steammobile.akamaized.net
