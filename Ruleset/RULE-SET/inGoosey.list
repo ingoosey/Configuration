@@ -1,6 +1,0 @@
-# macOS的词典和维基百科搜索集成的分流规则 需要开启Surge的增强模式
-PROCESS-NAME,LookupViewService
-PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
-DOMAIN,lookup-api.apple.com
-DOMAIN,lookup-api.apple.com.edgekey.net
-DOMAIN,e16991.b.akamaiedge.net
