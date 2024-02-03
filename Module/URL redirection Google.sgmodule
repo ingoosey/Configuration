@@ -1,9 +1,0 @@
-#!name=Google URL redirection
-#!desc=重定向国内谷歌搜索引擎。
-
-[URL Rewrite]
-^https?://(www.)?g.cn https://www.google.com 302
-^https?://(www.)?google.cn https://www.google.com 302
-
-[MITM]
-hostname = %APPEND% www.g.cn, www.google.cn
