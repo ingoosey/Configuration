@@ -1,9 +1,12 @@
 #!name=Personal LAB
-#!desc=重定向谷歌搜索引擎以及搭配含有URL-REGEX类型的分流规则
+#!desc=重定向谷歌搜索引擎以及搭配含有URL-REGEX类型的分流规则 / 解锁 TikTok 地区
 
 [URL Rewrite]
 "^https?:\/\/(www.)?(g|google)\.cn" https://www.google.com 302
-
+(?<=_region=)CN(?=&) JP 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 [MITM]
-hostname = %APPEND% www.g.cn, www.google.cn, www.amazon.com
+hostname = %APPEND% www.g.cn, www.google.cn, www.amazon.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
