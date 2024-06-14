@@ -1,4 +1,4 @@
-#!name=Personal LAB
+#!name=Laboratory.sgmodule
 #!desc=重定向谷歌搜索引擎以及搭配含有URL-REGEX类型的分流规则 / 解锁 TikTok 地区
 
 [URL Rewrite]
