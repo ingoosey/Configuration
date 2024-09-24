@@ -1,8 +1,0 @@
-#!name=Laboratory
-#!desc=重定向谷歌搜索引擎以及搭配含有URL-REGEX类型的分流规则
-
-[URL Rewrite]
-"^https?:\/\/(www.)?(g|google)\.cn" https://www.google.com 302
-
-[MITM]
-hostname = %APPEND% www.g.cn, www.google.cn
