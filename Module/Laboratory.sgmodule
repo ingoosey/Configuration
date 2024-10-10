@@ -1,14 +1,20 @@
 #!name=Laboratory
-#!desc=重定向谷歌搜索引擎 / 关于限制网关模式接管 P2P/BT 下载软件的规则补充。
+#!desc=重定向谷歌搜索引擎 / 解锁TikTok / 限制网关模式接管 P2P/BT 下载软件的规则补充。
 
 [URL Rewrite]
+# 重定向谷歌搜索引擎
 "^https?:\/\/(www.)?(g|google)\.cn" https://www.google.com 302
+# 解锁 TikTok 地区（台湾）
+(?<=_region=)CN(?=&) TW 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 [MITM]
-hostname = %APPEND% www.g.cn, www.google.cn
+hostname = %APPEND% www.g.cn, www.google.cn, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 
 [Rule]
-# > Download for Surge Mac
+# Download for Surge Mac
 PROCESS-NAME,aria2c,DIRECT
 PROCESS-NAME,fdm,DIRECT
 PROCESS-NAME,Folx,DIRECT
@@ -18,7 +24,7 @@ PROCESS-NAME,Transmission,DIRECT
 PROCESS-NAME,uTorrent,DIRECT
 PROCESS-NAME,WebTorrent,DIRECT
 PROCESS-NAME,WebTorrent Helper,DIRECT
-# > BT
+# BT
 DOMAIN-SUFFIX,smtp,DIRECT
 DOMAIN-KEYWORD,aria2,DIRECT
 DOMAIN-KEYWORD,announce,DIRECT
@@ -28,11 +34,11 @@ URL-REGEX,(Subject|HELO|SMTP),DIRECT
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com,DIRECT
 URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com),DIRECT
 URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?,DIRECT
-# > 迅雷
+# 迅雷
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.),DIRECT
 DOMAIN-SUFFIX,xunlei.com,DIRECT
 PROCESS-NAME,DownloadService,DIRECT
-# > Tencent 微云
+# Tencent 微云
 PROCESS-NAME,Weiyun,DIRECT
 # > BaiduYun 百度网盘
 PROCESS-NAME,baidunetdisk,DIRECT
