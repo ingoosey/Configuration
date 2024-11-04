@@ -1,6 +1,6 @@
 #!name=Laboratory
 #!desc=重定向谷歌搜索引擎 / 解锁 TikTok 台湾地区。
-
+#!category=Laboratory.sgmodule
 [URL Rewrite]
 # 重定向谷歌搜索引擎
 "^https?:\/\/(www.)?(g|google)\.cn" https://www.google.com 302
