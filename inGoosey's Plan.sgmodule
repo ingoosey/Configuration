@@ -1,6 +1,6 @@
-#!name=Laboratory
+#!name=不万能的模块
 #!desc=重定向谷歌搜索引擎 / 解锁 TikTok 台湾地区。
-#!category=不万能的模块
+#!category=不万能的分组
 
 [URL Rewrite]
 # 重定向谷歌搜索引擎
