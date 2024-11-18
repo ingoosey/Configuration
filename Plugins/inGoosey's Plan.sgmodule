@@ -2,6 +2,12 @@
 #!desc=重定向谷歌搜索引擎 / 解锁 TikTok 台湾地区。
 #!category=不万能的分组
 
+[Rule]
+# Ultra Mobile 分流规则
+DOMAIN-SUFFIX,ultramobile.com,美国
+DOMAIN-KEYWORD,ultra,美国
+DOMAIN-KEYWORD,ultramobile,美国
+
 [URL Rewrite]
 # 重定向谷歌搜索引擎
 "^https?:\/\/(www.)?(g|google)\.cn" https://www.google.com 302
