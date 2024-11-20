@@ -1,11 +1,12 @@
 {"policyGroupSettings":{
-"全局代理":{"cardBackgroundIdx":28,"coloredIcon":"B1::Transport::Airplane Window Closed","icon":"SF::square.dashed.inset.filled"},
-"代理":{"cardBackgroundIdx":28,"coloredIcon":"B1::User Interface::Dashboard Layout","icon":"SF::square.dashed.inset.filled"},
-"媒体":{"cardBackgroundIdx":28,"coloredIcon":"B1::User Interface::Dashboard Layout","icon":"SF::square.dashed.inset.filled"},
-"香港":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill"},
-"日本":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill"},
-"狮城":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill"},
-"美国":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill"},
-"台湾":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill"},
-"边缘":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill"}
+"<internal-placeholder-global>":{"cardBackgroundIdx":17,"coloredIcon":"B1::Computer Hardware::Old Computer","iconManuallySet":true},
+"机场":{"cardBackgroundIdx":3,"coloredIcon":"B1::Shopping::Wallet","iconManuallySet":true},
+"代理":{"cardBackgroundIdx":28,"coloredIcon":"B1::Household::Clean","icon":"SF::square.dashed.inset.filled","iconManuallySet":true},
+"媒体":{"cardBackgroundIdx":28,"coloredIcon":"B1::Photo and Video::Video Playlist","icon":"SF::square.dashed.inset.filled","iconManuallySet":true},
+"美国":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill","iconManuallySet":false},
+"日本":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill","iconManuallySet":false},
+"香港":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill","iconManuallySet":true},
+"台湾":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill","iconManuallySet":false},
+"狮城":{"cardBackgroundIdx":2,"coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macmini.fill","iconManuallySet":false},
+"边缘":{"cardBackgroundIdx":2,"coloredIcon":"B1::Maps::Globe","icon":"SF::macmini.fill","iconManuallySet":true}
 },"version":1}
