@@ -3,7 +3,7 @@
 #!category=不万能的分组
 
 [Rule]
-IP-CIDR,208.54.0.0/16
+IP-CIDR,208.54.0.0/16,香港
 
 [URL Rewrite]
 # 重定向谷歌搜索引擎
