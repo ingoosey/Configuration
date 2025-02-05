@@ -1,5 +1,5 @@
 #!name=不万能的模块
-#!desc=重定向谷歌搜索引擎 / 解锁 TikTok 台湾地区。
+#!desc=重定向谷歌搜索引擎
 #!category=不万能的分组
 
 [URL Rewrite]
