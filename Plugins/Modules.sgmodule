@@ -7,5 +7,5 @@
 "^https?:\/\/(?:www\.)?(google|g)\.cn" https://www.google.com 302
 
 [MITM]
-# 添加谷歌域名
-hostname = %APPEND% www.g.cn, www.google.cn
+# 添加谷歌、亚马逊域名
+hostname = %APPEND% www.g.cn, www.google.cn, www.amazon.com
