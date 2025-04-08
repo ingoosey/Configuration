@@ -2,6 +2,25 @@
 #!desc=重定向谷歌搜索引擎
 #!category=不万能的分组
 
+[Rule]
+# 用于提升 Wi-Fi Calling 成功率，强制 IMS/EPDG 域名走“美国”策略
+DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
+DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.3gppnetwork.org,美国
+DOMAIN-SUFFIX,wifi.spcsdns.net,美国
+DOMAIN-SUFFIX,ims.mnc260.mcc310.pub.3gppnetwork.org,美国
+DOMAIN-SUFFIX,ims.mnc260.mcc310.3gppnetwork.org,美国
+DOMAIN,epdg.epc.att.net,美国
+DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
+IP-CIDR,208.54.0.0/16,美国,no-resolve
+# Ultra Mobile 官网及服务 API，确保访问不受干扰
+DOMAIN-SUFFIX,ultramobile.com,美国
+DOMAIN-SUFFIX,ultramobile.co,美国
+DOMAIN-SUFFIX,ultramobile.net,美国
+DOMAIN,www.ultramobile.com,美国
+DOMAIN,shop.ultramobile.com,美国
+DOMAIN,account.ultramobile.com,美国
+DOMAIN,api.ultramobile.com,美国
+
 [URL Rewrite]
 # 重定向谷歌搜索引擎，从 www.google.cn 和 google.cn 到 google.com
 "^https?:\/\/(?:www\.)?(google|g)\.cn" https://www.google.com 302
