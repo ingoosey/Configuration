@@ -1,0 +1,19 @@
+# Ultra Mobile 官网及服务 API，确保访问不受干扰
+DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.3gppnetwork.org
+DOMAIN-SUFFIX,wifi.spcsdns.net
+DOMAIN-SUFFIX,ims.mnc260.mcc310.pub.3gppnetwork.org
+DOMAIN-SUFFIX,ims.mnc260.mcc310.3gppnetwork.org
+DOMAIN,epdg.epc.att.net
+DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
+IP-CIDR,208.54.0.0/16,no-resolve
+
+# 用于提升 Wi-Fi Calling 成功率，强制 IMS/EPDG 域名走“美国”策略
+# Ultra Mobile 官网及服务 API，确保访问不受干扰
+DOMAIN-SUFFIX,ultramobile.com
+DOMAIN-SUFFIX,ultramobile.co
+DOMAIN-SUFFIX,ultramobile.net
+DOMAIN,www.ultramobile.com
+DOMAIN,shop.ultramobile.com
+DOMAIN,account.ultramobile.com
+DOMAIN,api.ultramobile.com
