@@ -3,14 +3,12 @@
 "<internal-placeholder-global>":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF453A","coloredIcon":"B1::Computer Hardware::Old Computer","icon":"SF::network","iconManuallySet":true},
 "代理":{"cardBackgroundIdx":0,"cardBackgroundColor":"#30D158","coloredIcon":"B1::Household::Clean","icon":"SF::macstudio.fill","iconManuallySet":true},
 "媒体":{"cardBackgroundIdx":1,"coloredIcon":"B1::Editing::Medium Icons","iconManuallySet":true},
-"智能":{"cardBackgroundIdx":31,"coloredIcon":"B1::Science::Artificial Intelligence","iconManuallySet":true},
-"游戏":{"cardBackgroundIdx":18,"coloredIcon":"B1::Gaming::Game Controller","iconManuallySet":true},
-"边缘":{"cardBackgroundIdx":0,"cardBackgroundColor":"#40C8E0","coloredIcon":"B1::Maps::Globe","icon":"SF::globe.asia.australia.fill","iconManuallySet":true},
 "实验":{"cardBackgroundIdx":0,"cardBackgroundColor":"#64D2FF","coloredIcon":"B1::Science::Test Tube","icon":"SF::externaldrive.fill","iconManuallySet":true},
 "香港":{"cardBackgroundIdx":0,"cardBackgroundColor":"#64D2FF","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
 "台湾":{"cardBackgroundIdx":0,"cardBackgroundColor":"#64D2FF","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
 "日本":{"cardBackgroundIdx":0,"cardBackgroundColor":"#64D2FF","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
 "狮城":{"cardBackgroundIdx":0,"cardBackgroundColor":"#64D2FF","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
 "美国":{"cardBackgroundIdx":0,"cardBackgroundColor":"#64D2FF","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
+"边缘":{"cardBackgroundIdx":0,"cardBackgroundColor":"#40C8E0","coloredIcon":"B1::Maps::Globe","icon":"SF::globe.asia.australia.fill","iconManuallySet":true},
 "机场":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Ecommerce::Product","icon":"SF::icloud.fill","iconManuallySet":true}
 },"version":1}
