@@ -3,7 +3,6 @@
 #!category=不万能的实验室
 
 [Rule]
-
 # Ultra Mobile 官网与功能域名（直连）
 DOMAIN-SUFFIX,ultramobile.com,DIRECT
 DOMAIN,www.ultramobile.com,DIRECT
@@ -13,15 +12,12 @@ DOMAIN,pay.ultramobile.com,DIRECT
 DOMAIN,assets.ultramobile.com,DIRECT
 DOMAIN,static.ultramobile.com,DIRECT
 DOMAIN,cdn.ultramobile.com,DIRECT
-
 # Wi-Fi Calling IMS/SIP 域名
 DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
 DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
-
 # Wi-Fi Calling 相关 IP 段
 IP-CIDR,208.54.0.0/16,美国,no-resolve
 IP-CIDR,66.94.0.0/16,美国,no-resolve
-
 # Wi-Fi Calling UDP 端口
 UDP,DST-PORT=500,美国
 UDP,DST-PORT=4500,美国
