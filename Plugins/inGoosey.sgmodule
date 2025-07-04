@@ -4,7 +4,7 @@
 
 [Rule]
 # Ultra Mobile 域名直连
-DOMAIN-KEYWORD,ultramobile,DIRECT
+DOMAIN-SUFFIX,ultramobile.com,DIRECT
 # Wi-Fi Calling IMS/SIP 域名走美国
 DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
 DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
