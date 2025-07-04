@@ -1,24 +1,23 @@
 #!name=不万能的模块
-#!desc=不万能的模块，包含域名的规则分流以及重定向
+#!desc=不万能的模块，包含域名规则分流以及重定向
 #!category=不万能的实验室
 
 [Rule]
-# Ultra Mobile 域名
+# Ultra Mobile 域名直连
 DOMAIN-KEYWORD,ultramobile,DIRECT
-# Wi-Fi Calling IMS/SIP 域名
+# Wi-Fi Calling IMS/SIP 域名走美国
 DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
 DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
-# Wi-Fi Calling 相关 IP 段
+# Wi-Fi Calling 相关IP段
 IP-CIDR,208.54.0.0/16,美国,no-resolve
 IP-CIDR,66.94.0.0/16,美国,no-resolve
-# Wi-Fi Calling UDP 端口
+# Wi-Fi Calling UDP端口
 UDP,DST-PORT=500,美国
 UDP,DST-PORT=4500,美国
 
 [URL Rewrite]
-# 重定向谷歌搜索引擎，从 www.google.cn 和 google.cn 到 google.com
-"^https?:\/\/(?:www\.)?(google|g)\.cn" https://www.google.com 302
+# 重定向谷歌搜索引擎
+^https?:\/\/(?:www\.)?(google|g)\.cn https://www.google.com 302
 
 [MITM]
-# 添加谷歌域名
 hostname = %APPEND% www.g.cn, www.google.cn
