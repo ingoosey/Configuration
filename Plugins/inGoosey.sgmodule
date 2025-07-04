@@ -11,9 +11,6 @@ DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
 # Wi-Fi Calling 相关IP段
 IP-CIDR,208.54.0.0/16,美国,no-resolve
 IP-CIDR,66.94.0.0/16,美国,no-resolve
-# Wi-Fi Calling UDP端口
-UDP,DST-PORT=500,美国
-UDP,DST-PORT=4500,美国
 
 [URL Rewrite]
 # 重定向谷歌搜索引擎
