@@ -1,6 +1,6 @@
-#!name=不万能的模块
-#!desc=包含域名规则分流以及重定向
-#!category=不万能的实验室
+#!name=inGoosey's Sgmodule
+#!desc=Including domain rule diversion and redirection
+#!category=inGoosey's LAB
 
 [Rule]
 # Ultra Mobile
@@ -20,7 +20,6 @@ IP-CIDR,208.54.88.35/32,美国,no-resolve
 IP-CIDR,208.54.2.99/32,美国,no-resolve
 
 [URL Rewrite]
-# 重定向谷歌搜索引擎
 ^https?:\/\/(?:www\.)?(google|g)\.cn https://www.google.com 302
 
 [MITM]
