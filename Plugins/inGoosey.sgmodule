@@ -3,16 +3,16 @@
 #!category=不万能的实验室
 
 [Rule]
-# Ultra Mobile 官网和所有功能域名直连
+# Ultra Mobile
 DOMAIN-KEYWORD,ultramobile,DIRECT
-# Wi-Fi Calling IMS/SIP域名走美国
+# Wi-Fi Calling IMS/SIP
 DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
 DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
 DOMAIN,epdg.epc.mnc260.mcc310.3gppnetwork.org,美国
 DOMAIN,ss.epdg.epc.mnc260.mcc310.3gppnetwork.org,美国
 DOMAIN,epdg.epc.mnc260.mcc310.pub.ims.3gppnetwork.org,美国
 DOMAIN,epdg.epc.mnc260.mcc310.pub.ims.t-mobile.com,美国
-# Wi-Fi Calling 相关 IP 段
+# Wi-Fi Calling
 IP-CIDR,208.54.0.0/16,美国,no-resolve
 IP-CIDR,66.94.0.0/16,美国,no-resolve
 IP-CIDR,208.54.36.3/32,美国,no-resolve
