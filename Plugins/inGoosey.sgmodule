@@ -2,6 +2,8 @@
 #!desc=不万能的模块，包含域名的规则分流以及重定向
 #!category=不万能的实验室
 
+[Rule]
+
 # Ultra Mobile 官网与功能域名（直连）
 DOMAIN-SUFFIX,ultramobile.com,DIRECT
 DOMAIN,www.ultramobile.com,DIRECT
