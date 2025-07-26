@@ -1,4 +1,4 @@
-#!name=Professional
+#!name=Laboratory
 #!desc=Including domain rule diversion and redirection
 #!category=inGoosey's LAB
 
@@ -20,6 +20,7 @@ IP-CIDR,208.54.88.35/32,美国,no-resolve
 IP-CIDR,208.54.2.99/32,美国,no-resolve
 
 [URL Rewrite]
+# 重定向谷歌搜索
 ^https?:\/\/(?:www\.)?(google|g)\.cn https://www.google.com 302
 
 [MITM]
