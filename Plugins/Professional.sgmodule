@@ -1,8 +1,12 @@
-#!name=Laboratory
-#!desc=Including domain rule diversion and redirection
+#!name=Professional
+#!desc=包含分流规则、重写规则及脚本。
 #!category=inGoosey's LAB
 
 [Rule]
+# 其他
+DOMAIN-SUFFIX,346234.xyz,代理
+DOMAIN-SUFFIX,viking-links.tech,代理
+DOMAIN-SUFFIX,viking-links.com,代理
 # Ultra Mobile
 DOMAIN-KEYWORD,ultramobile,DIRECT
 # Wi-Fi Calling IMS/SIP
