@@ -3,10 +3,6 @@
 #!category=inGoosey's LAB
 
 [Rule]
-# 其他
-DOMAIN-SUFFIX,346234.xyz,代理
-DOMAIN-SUFFIX,viking-links.tech,代理
-DOMAIN-SUFFIX,viking-links.com,代理
 # Ultra Mobile
 DOMAIN-KEYWORD,ultramobile,DIRECT
 # Wi-Fi Calling IMS/SIP
