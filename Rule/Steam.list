@@ -1,4 +1,3 @@
-# DOMAIN-KEYWORD（规则会匹配包含相应关键字的域名）
 # DOMAIN-SUFFIX （规则会匹配与请求与主域名相同的地址）
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
@@ -7,7 +6,6 @@ DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,akamaihd.net
-# 自行添加
 DOMAIN-SUFFIX,steamserver.net
 # IP-CIDR（有两个根据 IP 匹配的规则。如果请求的主机名是一个域名，那么根据 IP 的规则将触发 DNS 查询。如果 DNS 查询失败，Surge 会停止规则测试并报错。）
 IP-CIDR,45.121.184.0/24
