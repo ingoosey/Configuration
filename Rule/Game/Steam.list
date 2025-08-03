@@ -1,4 +1,3 @@
-# DOMAIN-SUFFIX （规则会匹配与请求与主域名相同的地址）
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamgames.com
