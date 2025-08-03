@@ -6,5 +6,6 @@ DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,akamaihd.net
+# 自行添加
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,s.team
