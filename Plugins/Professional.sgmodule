@@ -7,6 +7,8 @@
 DOMAIN-SUFFIX,346234.xyz,代理
 DOMAIN-SUFFIX,viking-links.com,代理
 DOMAIN-SUFFIX,feeds.viking-links.tech,代理
+# Glados
+DOMAIN-SUFFIX,glados.network,代理
 # Ultra Mobile
 DOMAIN-KEYWORD,ultramobile,DIRECT
 # Wi-Fi Calling IMS/SIP
