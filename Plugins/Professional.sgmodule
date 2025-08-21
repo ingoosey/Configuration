@@ -3,7 +3,9 @@
 #!category=Professional's LAB
 
 [General]
-dns-server = 223.5.5.5, 119.29.29.29
+# > DNS 服务器
+dns-server = system, 223.5.5.5, 119.29.29.29
+# > DNS 加密服务器（除非当地 ISP 有严重的 DNS 污染问题，否则没必要开启 DoH，传统 DNS 的性能最优，网络异常后恢复速度最快。）
 encrypted-dns-server = quic://dns.alidns.com
 
 [Rule]
