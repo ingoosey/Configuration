@@ -2,23 +2,6 @@
 #!desc=包含配置、分流规则、重写规则及脚本。
 #!category=Professional's LAB
 
-[Rule]
-# Ultra Mobile
-DOMAIN-KEYWORD,ultramobile,DIRECT
-# Wi-Fi Calling IMS/SIP
-DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
-DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org,美国
-DOMAIN,epdg.epc.mnc260.mcc310.3gppnetwork.org,美国
-DOMAIN,ss.epdg.epc.mnc260.mcc310.3gppnetwork.org,美国
-DOMAIN,epdg.epc.mnc260.mcc310.pub.ims.3gppnetwork.org,美国
-DOMAIN,epdg.epc.mnc260.mcc310.pub.ims.t-mobile.com,美国
-# Wi-Fi Calling
-IP-CIDR,208.54.0.0/16,美国,no-resolve
-IP-CIDR,66.94.0.0/16,美国,no-resolve
-IP-CIDR,208.54.36.3/32,美国,no-resolve
-IP-CIDR,208.54.88.35/32,美国,no-resolve
-IP-CIDR,208.54.2.99/32,美国,no-resolve
-
 [URL Rewrite]
 # 重定向谷歌搜索
 ^https?:\/\/(?:www\.)?(google|g)\.cn https://www.google.com 302
