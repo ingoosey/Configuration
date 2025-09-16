@@ -1,6 +1,6 @@
-#!name=Professional
+#!name=inGoosey's Module
 #!desc=包含配置、分流规则、重写规则及脚本。
-#!category=Professional's LAB
+#!category=inGoosey's LAB
 
 [URL Rewrite]
 # 重定向谷歌搜索
