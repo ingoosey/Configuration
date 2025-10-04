@@ -2,13 +2,13 @@
 "<internal-placeholder-global>":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF453A","coloredIcon":"B1::Computer Hardware::Old Computer","icon":"SF::app.fill","iconManuallySet":true},
 "代理":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Household::Clean","icon":"SF::signature","iconManuallySet":true},
 "媒体":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Editing::Medium Icons","icon":"SF::livephoto.play","iconManuallySet":true},
-"智能":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Science::Artificial Intelligence","icon":"SF::brain","iconManuallySet":true},
+"苹果":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Plants::Bitten Apple","iconManuallySet":true},
 "游戏":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Gaming::Game Controller","icon":"SF::gamecontroller.fill","iconManuallySet":true},
+"智能":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Science::Artificial Intelligence","icon":"SF::brain","iconManuallySet":true},
 "香港":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macstudio.fill","iconManuallySet":true},
 "日本":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macstudio.fill","iconManuallySet":true},
 "狮城":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macstudio.fill","iconManuallySet":true},
 "美国":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macstudio.fill","iconManuallySet":true},
-"实验":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macstudio.fill","iconManuallySet":true},
 "边缘":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Maps::Globe","icon":"SF::macstudio.fill","iconManuallySet":true},
 "机场":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Ecommerce::Product","icon":"SF::icloud.fill","iconManuallySet":true}
 },"version":1}
