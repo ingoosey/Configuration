@@ -12,3 +12,18 @@
 "美国":{"cardBackgroundIdx":0,"cardBackgroundColor":"#8E8E93","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::macstudio.fill","iconManuallySet":true},
 "机场":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF3B30","coloredIcon":"B1::Ecommerce::Product","icon":"SF::icloud.fill","iconManuallySet":true}},
 "version":1}
+
+
+{"policyGroupSettings":{
+	"<internal-placeholder-global>":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF383C","coloredIcon":"B1::Computer Hardware::BIOS","icon":"SF::app.fill","iconManuallySet":true},
+	"代理":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF383C","coloredIcon":"B1::Household::Clean","icon":"SF::app.fill","iconManuallySet":true},
+	"媒体":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Nature::Nature","icon":"SF::viewfinder","iconManuallySet":true},
+	"智能":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Science::Artificial Intelligence","icon":"SF::viewfinder","iconManuallySet":true},
+	"游戏":{"cardBackgroundIdx":0,"cardBackgroundColor":"#34C759","coloredIcon":"B1::Gaming::Game Controller","icon":"SF::viewfinder","iconManuallySet":true},
+	"兜底":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF383C","coloredIcon":"B1::Shopping::Product","icon":"SF::app.fill","iconManuallySet":true},
+	"香港":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF8D28","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
+	"日本":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF8D28","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
+	"狮城":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF8D28","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
+	"美国":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF8D28","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true},
+	"边缘":{"cardBackgroundIdx":0,"cardBackgroundColor":"#FF8D28","coloredIcon":"B1::Computer Hardware::NAS","icon":"SF::externaldrive.fill","iconManuallySet":true}
+	},"version":1}
